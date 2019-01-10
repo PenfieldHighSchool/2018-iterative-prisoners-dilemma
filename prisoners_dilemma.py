@@ -40,7 +40,7 @@ import team5, team6, team7, team8, team9
 import team10, team11, team12, team13, team14
 import TeamRavioli, TeamLarry, copycat, copykitten, error_cat
 import GeorgeHWBush, maddysTeam2, gezyk, teamBetrayal
-import teamChunky, teamFood,OperationRalph, teamPizzo
+import teamChunky, teamFood,OperationRalph, teamPizzo, jamoStrategy
 
 betray = example1
 collude = example0
@@ -48,7 +48,7 @@ collude = example0
 modules = [example0, example1, example2, example3, example4, example5, example6, example7,
 team0, team1, team2, team3, team4, team5, team6, team7, team8, team9, team10, 
 team11, team12, team13, team14, teamPizzo, TeamRavioli, TeamLarry, copycat, copykitten, error_cat, GeorgeHWBush, maddysTeam2, gezyk, teamBetrayal
-,teamChunky, teamFood,OperationRalph]
+,teamChunky, teamFood,OperationRalph, jamoStrategy]
 for module in modules:
     reload(module)
     print ('reloaded',module)
