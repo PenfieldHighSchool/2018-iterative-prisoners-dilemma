@@ -40,14 +40,14 @@ import example0, example1, example2, example3
 #import team10, team11, team12, team13, team14
 import TeamRavioli, TeamLarry, copycat, copykitten, error_cat
 import GeorgeHWBush, maddysTeam2, gezyk, teamBetrayal
-import teamChunky, teamFood,OperationRalph, teamPizzo, jamoStrategy
+import teamChunky, teamFood,OperationRalph, jamoStrategy
 import Jarvisco, teamBigC,Diabetic_Turkeys, TeamGetOffTheGames, TeamBoj
-import boxOBees,teamConceivable, 
+import boxOBees,teamConceivable
 
 betray = example1
 collude = example0
 
-modules = [teamPizzo, TeamRavioli, TeamLarry, copycat, copykitten, error_cat, GeorgeHWBush, maddysTeam2, gezyk, teamBetrayal
+modules = [example0, example1, TeamRavioli, TeamLarry, copycat, copykitten, error_cat, GeorgeHWBush, maddysTeam2, gezyk, teamBetrayal
 ,teamChunky, teamFood,OperationRalph, jamoStrategy, Jarvisco, teamBigC,Diabetic_Turkeys, TeamGetOffTheGames, TeamBoj, boxOBees, teamConceivable]
 for module in modules:
     reload(module)
